@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristiano Franca">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="web nutrional, informativo">
+    <title>Tabela Nutricional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+     <div class="buttonleft">
+        <img src="assets/arrow-left.svg" alt="arrow">
+     </div>  
+     <div class="buttonright">
+        <img src="assets/heart.svg" alt="heart">
+     </div> 
+     <div class="mask">
+        <img src="assets/prato1.png" alt="">
+     </div>
+     <div class="menu">
+        <div class="centerbox">
+            <div class="salada">
+                <h1>Salada variada</h1>
+            </div>
+            <div class="info">
+                <div class="energy">
+                <p class="text1">Energia</p>
+                <p class="text2">221,15 kcal</p>
+                </div>
+                <div class="portion">
+                <p class="text3">Porção total</p>
+                <p class="text4">240 g</p>
+                </div>
+            </div>
+            <div class="graph">
+                <div class="protein">
+                   <div class="proteintop">
+                       <p class="text5">Proteínas</p>
+                       <p class="text6">15,13 g</p>
+                   </div>
+                   <div class="proteinbutton">
+                        <div class="scale1"></div>
+                        <div class="scale2"></div>
+                        <div class="scale3"></div>
+                        <div class="scale4"></div>
+                        <div class="scale5"></div>
+                        <div class="scale6"></div>
+                   </div> 
+                </div>
+                <div class="carbs">
+                    <div class="proteintop">
+                        <p class="text5">Carboidratos</p>
+                        <p class="text6">18,40 g</p>
+                    </div>
+                    <div class="proteinbutton">
+                         <div class="scale1"></div>
+                         <div class="scale2"></div>
+                         <div class="scale3"></div>
+                         <div class="scale4"></div>
+                         <div class="scale5"></div>
+                         <div class="scale6"></div>
+                    </div>    
+                </div>
+                <div class="sugar">
+                    <div class="proteintop">
+                        <p class="text5">Açúcar</p>
+                        <p class="text6">4,88 g</p>
+                    </div>
+                    <div class="proteinbutton">
+                         <div class="scale1"></div>
+                         <div class="scale4"></div>
+                         <div class="scale4"></div>
+                         <div class="scale4"></div>
+                         <div class="scale5"></div>
+                         <div class="scale6"></div>
+                    </div> 
+                </div>
+                <div class="fat">
+                    <div class="proteintop">
+                        <p class="text5">Gorduras</p>
+                        <p class="text6">5,18 g</p>
+                    </div>
+                    <div class="proteinbutton">
+                         <div class="scale1"></div>
+                         <div class="scale4"></div>
+                         <div class="scale4"></div>
+                         <div class="scale4"></div>
+                         <div class="scale5"></div>
+                         <div class="scale6"></div>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+        <div class="buttonprimary">
+            <button type="button"  onclick="demoVisibility()">Mais detalhes</button>
+        </div>
+        <div id="drawer">
+           <div class="slider">
+            <button onclick="window.location.reload()"></button>
+           </div> 
+           <div class="text7">
+            <p>Mais detalhes</p>
+           </div>
+           <div class="table">
+                       <div class="table1">
+                        <p class="text8">Energia</p>
+                        <p class="text11">221,15 kcal</p>   
+                        </p>
+                       </div>
+                       <div class="table2">
+                        <p class="text8">Proteínas</p>
+                        <p class="text9">15,13 g</p> 
+                       </div>
+                       <div class="table3">
+                        <p class="text8">Carboidratos</p>
+                        <p class="text9">18,40 g</p> 
+                       </div>
+                       <div class="table4">
+                        <p class="text10">Fibra Alimentar</p>
+                        <p class="text9">5,83 g</p> 
+                       </div>
+                       <div class="table5">
+                        <p class="text12">Açúcar</p>
+                        <p class="text9">4,88 g</p> 
+                       </div>
+                       <div class="table6">
+                        <p class="text8">Gorduras Totais</p>
+                        <p class="text9">5,18 g</p>  
+                       </div>
+                       <div class="table7">
+                        <p class="text14">Gorduras Saturadas</p>
+                        <p class="text9">0,86 g</p>  
+                       </div>
+                       <div class="table8">
+                        <p class="text16">Gorduras Trans</p>
+                        <p class="text13">0 g/<p> 
+                       </div>
+                       <div class="table9">
+                        <p class="text8">Colesterol</p>
+                        <p class="text9">0 mg</p>
+                       </div>
+                       <div class="table10">
+                        <p class="text8">Sódio</p>
+                        <p class="text9">243,03 mg</p>
+                       </div>
+                       <div class="table11">
+                        <p class="text8">Potássio</p>
+                        <p class="text9">291,85 mg</p>
+                       </div>
+                       <div class="table12">
+                        <p class="text8">Cálcio</p>
+                        <p class="text9">49,02 mg</p>
+                       </div>
+                       <div class="table13">
+                        <p class="text8">Ferro</p>
+                        <p class="text9">2,91 mg</p>
+                       </div>
+                       <div class="table14">
+                        <p class="text8">Magnésio</p>
+                        <p class="text9">48,23 mg</p>
+                       </div>
+                       <div class="table15">
+                        <p class="text8">Vitamina C</p>
+                        <p class="text9">29,49 mg</p>
+                       </div>
+                       <div class="table16">
+                        <p class="text8">Vitamina D</p>
+                        <p class="text9">24,88 mg</p>
+                       </div>
+                       <div class="table17">
+                        <p class="text8">Vitamina B6</p>
+                        <p class="text9">32,40 mg</p>
+                       </div>
+
+           </div>
+
+        </div>
+     </div>
+     <!-- comecei na quarta dia 7/09/23 e terminei hoje dia 08/09/23 
+        so fazendo a parte do JS, foi muito bacana e tive que pesquizar muito pr achegar nesse resultado 
+    nao ta 100 % mas melhorou bastante-->
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
